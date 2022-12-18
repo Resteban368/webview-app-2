@@ -56,15 +56,15 @@ class MensajeNoInternetScreen extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: size.height * 0.32,
+                height: size.height * 0.4,
               ),
               Container(
-                width: 200,
-                height: 200,
+                width: 300,
+                height: 80,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/icono.png'),
-                    fit: BoxFit.cover,
+                    image: AssetImage('assets/logo.png'),
+                    fit: BoxFit.fill,
                   ),
                 ),
               ),

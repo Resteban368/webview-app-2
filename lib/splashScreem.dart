@@ -29,12 +29,12 @@ class _SplashScreenState extends State<SplashScreen> {
         _FondoBox(),
         Center(
           child: Container(
-            width: 200,
-            height: 200,
+            width: 300,
+            height: 80,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/icono.png'),
-                fit: BoxFit.cover,
+                image: AssetImage('assets/logo.png'),
+                fit: BoxFit.fill,
               ),
             ),
           ),
